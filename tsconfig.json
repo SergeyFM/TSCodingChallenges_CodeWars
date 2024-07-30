@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [ "es6", "dom" ], // Add 'dom' to include standard browser APIs
+    "sourceMap": true,
+    "outDir": "./dist",
+    "types": [ "jest" ]
+  },
+  "include": [
+    "*.ts",
+    "*.test.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
