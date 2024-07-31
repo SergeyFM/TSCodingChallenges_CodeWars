@@ -9,7 +9,7 @@ function SayHello(name) {
 exports.SayHello = SayHello;
 // Jest test for the function
 test('SayHello function', () => {
-    const result = SayHello('John');
-    expect(result).toBe('Hello John');
+    const result = SayHello('Sergey');
+    expect(result).toBe('Hello Sergey');
 });
 //# sourceMappingURL=sayHello.test.js.map

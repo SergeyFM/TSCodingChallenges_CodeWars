@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TSCodingChallenges_CodeWars", "TSCodingChallenges_CodeWars.njsproj", "{1B7F122C-A8F0-4A84-9BEF-A6C0673FCDF6}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TSCodingChallenges_CodeWars", "TSCodingChallenges_CodeWars.esproj", "{2209BAA5-07C3-4D5F-BD21-64E192C53CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1B7F122C-A8F0-4A84-9BEF-A6C0673FCDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B7F122C-A8F0-4A84-9BEF-A6C0673FCDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B7F122C-A8F0-4A84-9BEF-A6C0673FCDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B7F122C-A8F0-4A84-9BEF-A6C0673FCDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2209BAA5-07C3-4D5F-BD21-64E192C53CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2209BAA5-07C3-4D5F-BD21-64E192C53CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2209BAA5-07C3-4D5F-BD21-64E192C53CEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2209BAA5-07C3-4D5F-BD21-64E192C53CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2209BAA5-07C3-4D5F-BD21-64E192C53CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2209BAA5-07C3-4D5F-BD21-64E192C53CEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
