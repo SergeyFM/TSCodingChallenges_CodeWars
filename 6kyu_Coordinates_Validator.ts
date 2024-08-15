@@ -42,10 +42,7 @@ export function isValidCoordinates(coordinates: string): boolean {
     if (parts[0].split('.').length > 2 || parts[1].split('.').length > 2) 
         return false // have none or one decimal point
 
-    if (parts[0].split('-').length > 2 || parts[1].split('-').length > 2)
-        return false // have none or one minus sign
-
-    if (parts[0].indexOf('-') > 0 || parts[1].indexOf('-') > 0)
+    if (parts[0].lastIndexOf('-') > 0 || parts[1].lastIndexOf('-') > 0)
         return false // the negative sign is only at the start
 
     const lat = parseFloat(parts[0]);
